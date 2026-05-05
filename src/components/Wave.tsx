@@ -1,0 +1,25 @@
+type WaveProps = {
+  fromColor: string;
+  toColor: string;
+  flip?: boolean;
+};
+
+export default function Wave({ fromColor, toColor, flip = false }: WaveProps) {
+  return (
+    <div
+      className="leading-none overflow-hidden"
+      style={{ background: fromColor, transform: flip ? "scaleY(-1)" : undefined }}
+    >
+      <svg
+        viewBox="0 0 1440 64"
+        preserveAspectRatio="none"
+        className="block w-full h-16"
+      >
+        <path
+          d="M0,32 C360,80 1080,-16 1440,32 L1440,64 L0,64 Z"
+          fill={toColor}
+        />
+      </svg>
+    </div>
+  );
+}
