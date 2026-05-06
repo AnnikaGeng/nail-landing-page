@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 
 const links = [
-  { href: "#technologie", label: "Technologie" },
+  { href: "#vorteile", label: "Vorteile" },
   { href: "#ablauf", label: "Ablauf" },
+  { href: "#technologie", label: "Technologie" },
   { href: "#fuer-wen", label: "Für wen?" },
   { href: "#kontakt", label: "Kontakt" },
 ];

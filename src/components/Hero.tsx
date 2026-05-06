@@ -57,6 +57,7 @@ export default function Hero() {
             </div>
           ))}
         </div>
+
       </div>
 
       {/* Right */}
@@ -107,6 +108,7 @@ export default function Hero() {
               </span>
             </div>
           </div>
+
         </div>
       </div>
     </section>
