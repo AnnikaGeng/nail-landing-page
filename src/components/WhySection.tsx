@@ -35,7 +35,7 @@ export default function WhySection() {
         {/* ── Left ── */}
         <div>
           <span className="text-xs font-medium uppercase tracking-[.14em] text-gold-dark mb-3 block">
-            Warum NailAI?
+            Warum NailPrinter?
           </span>
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl lg:text-[2.4rem] font-bold text-ink leading-[1.15] mb-6">
             Vollautomatisch.<br />

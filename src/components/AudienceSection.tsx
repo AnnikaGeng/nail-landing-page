@@ -4,14 +4,14 @@ const audiences = [
   {
     emoji: "💅",
     title: "Nagelstudio",
-    body: "Komplexe Handmalerei kostet im Salon 35-50 €. Mit NailAI liegt Ihr Materialeinsatz bei unter 1 €. Bieten Sie ein 9,90-€-Einstiegsangebot als Kundenmagnet.",
+    body: "Komplexe Handmalerei kostet im Salon 35-50 €. Mit NailPrinter liegt Ihr Materialeinsatz bei unter 1 €. Bieten Sie ein 9,90-€-Einstiegsangebot als Kundenmagnet.",
     highlight: "↑ +30 % Umsatz pro Kunde",
     defaultOpen: true,
   },
   {
     emoji: "✂️",
     title: "Friseur & Tanning",
-    body: "Während die Kundin auf die Tönung wartet, liefert NailAI ein komplettes Nagelset – nahezu ohne Personalaufwand. 5 Kunden täglich: bis zu 2.000 € Mehreinnahmen.",
+    body: "Während die Kundin auf die Tönung wartet, liefert NailPrinter ein komplettes Nagelset – nahezu ohne Personalaufwand. 5 Kunden täglich: bis zu 2.000 € Mehreinnahmen.",
     highlight: "15-20 € Zusatzeinnahme / Besuch",
   },
   {
@@ -28,14 +28,14 @@ export default function AudienceSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <span className="text-xs font-medium uppercase tracking-[.14em] text-gold-dark mb-3 block">
-            Für wen ist NailAI?
+            Für wen ist NailPrinter?
           </span>
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl lg:text-4xl font-bold text-ink">
             Drei Branchen.{" "}
             <em className="text-gold-dark">Ein Gerät.</em>
           </h2>
           <p className="text-muted mt-3 max-w-md mx-auto leading-relaxed">
-            Ob Nagelstudio, Friseursalon oder Beauty-SPA - NailAI schafft sofort neue Einnahmequellen.
+            Ob Nagelstudio, Friseursalon oder Beauty-SPA - NailPrinter schafft sofort neue Einnahmequellen.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function AudienceSection() {
           <div className="rounded-3xl overflow-hidden">
             <Image
               src="/colors.png"
-              alt="NailAI Farbvarianten"
+              alt="NailPrinter Farbvarianten"
               width={2400}
               height={900}
               className="w-full h-auto"

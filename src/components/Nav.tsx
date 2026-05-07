@@ -28,7 +28,7 @@ export default function Nav() {
       }`}
     >
       <span className="font-[family-name:var(--font-playfair)] text-xl font-bold text-ink tracking-wide">
-        Nail<span className="text-gold-dark">AI</span>
+        Nail<span className="text-gold-dark">Printer</span>
       </span>
 
       <ul className="hidden md:flex gap-8 list-none">

@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NailAI – Professionelle Nagelkunst in 30 Sekunden",
+  title: "NailPrinter – Professionelle Nagelkunst in 30 Sekunden",
   description:
     "KI-gestützte Nageldruckmaschine für Nagelstudios, Friseursalons und Beauty-SPAs. Unter 1 € Materialkosten pro Hand.",
 };
