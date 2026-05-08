@@ -16,7 +16,7 @@ export default function Wave({ fromColor, toColor, flip = false }: WaveProps) {
         className="block w-full h-16"
       >
         <path
-          d="M0,32 C360,80 1080,-16 1440,32 L1440,64 L0,64 Z"
+          d="M0,32 C360,64 1080,0 1440,32 L1440,64 L0,64 Z"
           fill={toColor}
         />
       </svg>

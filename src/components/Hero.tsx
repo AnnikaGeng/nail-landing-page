@@ -8,7 +8,7 @@ const stats = [
 
 export default function Hero() {
   return (
-    <section className="h-screen max-h-[900px] min-h-[640px] grid lg:grid-cols-2 gap-8 items-center px-8 lg:px-16 pt-20 pb-8 relative overflow-hidden">
+    <section className="min-h-screen lg:max-h-[900px] grid lg:grid-cols-2 gap-8 items-center px-8 lg:px-16 pt-20 pb-10 sm:pb-28 lg:pb-8 relative overflow-x-hidden">
       {/* background glow */}
       <div className="absolute top-[-20%] right-[-10%] w-[60vw] h-[60vw] rounded-full bg-gradient-radial from-gold/15 to-transparent pointer-events-none" />
 
@@ -76,7 +76,7 @@ export default function Hero() {
               alt="NailAI Nageldruckmaschine"
               width={700}
               height={520}
-              className="w-[480px] lg:w-[560px] xl:w-[620px] h-auto"
+              className="w-[260px] sm:w-[360px] lg:w-[520px] xl:w-[620px] h-auto"
               priority
             />
           </div>
@@ -90,7 +90,7 @@ export default function Hero() {
           </div>
 
           {/* dimension annotation */}
-          <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3">
+          <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 z-20 hidden sm:flex items-center gap-3">
             {/* weight */}
             <div className="bg-ink/80 backdrop-blur-sm text-white rounded-xl px-3 py-2 flex flex-col items-center gap-0.5">
               <span className="text-gold text-[10px] font-medium uppercase tracking-widest">Gewicht</span>
